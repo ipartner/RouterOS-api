@@ -10,7 +10,7 @@ setup(
     author_email='it@socialwifi.com',
     url='https://github.com/ipartner/RouterOS-api',
     #packages=find_packages(),
-    packages=['routeros_api']
+    packages=['routeros_api'],
     test_suite="tests",
     license="MIT",
     install_requires=['six'],
