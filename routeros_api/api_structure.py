@@ -6,7 +6,10 @@ class StringField(object):
         return string.encode()
 
     def get_python_value(self, bytes):
-        return bytes.decode()
+        try:
+            return bytes.decode()
+        except:
+            return bytes.decode('latin-1')
 
 
 class BytesField:
