@@ -4,11 +4,11 @@ from setuptools import setup
 
 setup(
     name="RouterOS-api",
-    version='0.15.1.dev0',
+    version='0.15.1.ipartner',
     description='Python API to RouterBoard devices produced by MikroTik.',
     author='Social WiFi',
     author_email='it@socialwifi.com',
-    url='https://github.com/socialwifi/RouterOS-api',
+    url='https://github.com/ipartner/RouterOS-api',
     packages=find_packages(),
     test_suite="tests",
     license="MIT",
